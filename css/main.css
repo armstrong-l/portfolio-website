@@ -1068,3 +1068,9 @@ footer .social-icons li i {
     page-break-after: avoid;
   }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;  
+    }
+}
